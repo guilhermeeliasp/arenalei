@@ -1,0 +1,35 @@
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+.card-body p {
+  margin-bottom: 5px;
+}
+header h1 {
+  font-size: 1.8rem;
+}
+@media (max-width: 576px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Botão topo fixo */
+#btnTopo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 999;
+}
